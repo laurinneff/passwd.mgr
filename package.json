@@ -1,0 +1,25 @@
+{
+  "name": "passwd.mgr",
+  "version": "1.1.4",
+  "description": "A command-line password manager",
+  "main": "passwd.mgr.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "password",
+    "manager",
+    "password-manager"
+  ],
+  "author": "Laurin Neff",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^5.0.5",
+    "passwddb": "^1.0.1"
+  },
+  "bin": {
+    "passwd.mgr": "./cli.js"
+  },
+  "repository": "github:laurinneff/passwd.mgr"
+}
